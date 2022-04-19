@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #5D6063;
+  background-color: #EAEDF0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid red;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +28,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.form {
+  margin: 25px;
+  border: 1px solid grey;
+  border-radius: 4px;
+
+}
+.form input{
+  width: 550px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+}
+.fromHead{
+  border: 3px solid black;
+}
+.form-head{
+  display: flex;
+  flex-direction: column;
+  
+}
+.picV{
+  display: flex;
+  padding: 8px;
+}
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+  width: 550px;
 }
